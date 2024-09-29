@@ -1,6 +1,6 @@
+import pytorch_lightning as pl
 import torch
 from torch import nn
-import pytorch_lightning as pl
 
 
 class MLP(pl.LightningModule):

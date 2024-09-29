@@ -1,5 +1,5 @@
 import torch
-from torch.utils.data import DataLoader, random_split, TensorDataset
+from torch.utils.data import DataLoader, TensorDataset, random_split
 
 
 def create_mock_dataloaders(
