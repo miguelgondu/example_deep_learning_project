@@ -16,10 +16,11 @@ pip install -e .
 
 ## Testing that you're good to go
 
-```bash
-python
-> import example_package
-> print(example_package.__version__)
+```python
+# in Python
+import example_package
+
+print(example_package.__version__)
 ```
 
 ## If you are developing this package...
