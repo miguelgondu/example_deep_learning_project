@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_package"
+version = "0.0.1"
+description = "An example package"
+authors = [
+    { name="Your Name", email="you@example.com" }
+]
+requires-python = ">=3.10"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.isort]
+profile = "black"
