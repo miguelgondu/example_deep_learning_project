@@ -4,6 +4,11 @@ from torch import nn
 
 
 class MLP(pl.LightningModule):
+    """
+    Implements a basic MLP for classification tasks. It has 2 hidden layers
+    with ReLU activation functions.
+    """
+
     def __init__(self, input_dim, hidden_dim, output_dim, learning_rate=1e-3):
         super(MLP, self).__init__()
         self.save_hyperparameters()

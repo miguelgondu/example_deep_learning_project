@@ -3,7 +3,7 @@
 This project is a cookie cutter for a basic Python project using:
 - `lightning` for defining and trainig models.
 - `pytest` for testing.
-- `isort, `black` and `ruff` for formatting and linting.
+- `isort`, `black` and `ruff` for formatting and linting.
 
 It also includes a GitHub action which runs `pytest` on every push and pull-request.
 
