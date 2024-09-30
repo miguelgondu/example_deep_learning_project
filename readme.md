@@ -5,6 +5,7 @@ This project is a cookie cutter for a basic Python project using:
 - `wandb` for logging.
 - `pytest` for testing.
 - `isort`, `black` and `ruff` for formatting and linting.
+- GitHub actions for checking formatting, linting, and running tests online.
 
 It also includes a GitHub action which runs `pytest` on every push and pull-request.
 

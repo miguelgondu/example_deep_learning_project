@@ -27,7 +27,10 @@ jobs:
             python -m pip install -e .
 
         - name: Run black
-          run: black --check .
+          run: black --check --diff .
+
+        - name: Run ruff
+          run: ruff check .
 
         - name: Run pytest
           run: pytest
