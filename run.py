@@ -9,7 +9,7 @@ from example_package.models.mlp import MLP
 def main():
     train_loader, test_loader = create_mock_dataloaders(
         n_dimensions=28 * 28,
-        n_points=20_000,
+        n_points=10_000,
         batch_size=256,
     )
 
