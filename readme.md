@@ -2,6 +2,7 @@
 
 This project is a cookie cutter for a basic Python project using:
 - `lightning` for defining and trainig models.
+- `wandb` for logging.
 - `pytest` for testing.
 - `isort`, `black` and `ruff` for formatting and linting.
 
