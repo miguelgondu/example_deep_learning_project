@@ -14,7 +14,7 @@ from example_package.dataloaders.mock_dataloader import create_mock_dataloaders
 from example_package.models.mlp import MLP
 
 # Your username, or the entity you're logged in as on W&B
-WANDB_ENTITY = "example"
+WANDB_ENTITY = "miguelgondu"
 
 # Your project name on W&B
 WANDB_PROJECT = "example_package"
